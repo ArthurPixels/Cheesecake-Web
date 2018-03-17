@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #54ceff;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  color: #737982;
+}
+
+.excerpt {
+  text-align: left;
+  font-size: 12px;
+}
+
+.botao {
+  background-color: #54ceff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px
+}
+
+.categoria {
+  font-size: 12px;
+  text-decoration: none;
+  border-bottom: solid #54ceff 2px;
+  padding-bottom: 5px;
+  color: #737982;
+}
