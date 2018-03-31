@@ -1,0 +1,93 @@
+body {
+  font-family: cursive,'Open Sans', sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 40px;
+  color: #323648;
+  margin-bottom: 20px;
+}
+
+header {
+  border-bottom: 1px solid #ebebeb;
+}
+
+header img {
+  height: 30px;
+  padding: 20px 0;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  padding: 25px 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #6d6f7b;
+}
+
+nav li a:hover {
+  color: #3f46ad;
+}
+
+.border-link {
+  border: 1px solid #6d6f7b;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.border-link:hover {
+  color: #3f46ad;
+  border-color: #9ba0d3;
+}
+
+.one-half {
+  width: 50%;
+  float: left;
+}
+
+.get-started-button {
+  text-decoration: none;
+  background-color: #3f46ad;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.get-started-button:hover{
+  background-color: #1c299d;  
+}
+
+.hero{
+  margin-top: 60px;
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+.hero-text {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.sign-in-cta {
+  font-size: 12px;
+}
