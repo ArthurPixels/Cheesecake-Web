@@ -88,6 +88,10 @@ nav li a:hover {
   margin-bottom: 30px;
 }
 
+.links-section {
+    background-color: #f5f5f5;
+}
+
 .sign-in-cta {
   font-size: 12px;
 }
