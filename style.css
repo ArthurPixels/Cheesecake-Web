@@ -29,20 +29,6 @@ nav {
   padding: 25px 0;
 }
 
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  padding: 0 5px;
-  text-decoration: none;
-  color: #6d6f7b;
-}
-
-nav li a:hover {
-  color: #3f46ad;
-}
-
 .border-link {
   border: 1px solid #6d6f7b;
   padding: 5px 10px;
@@ -54,40 +40,20 @@ nav li a:hover {
   border-color: #9ba0d3;
 }
 
-.one-half {
-  width: 50%;
-  float: left;
-}
-
-.get-started-button {
-  text-decoration: none;
-  background-color: #3f46ad;
-  color: white;
-  padding: 20px 30px;
+.c-button {
+  display: block;
+  margin: 30px 200px;
+  border: 1px solid #1c299d;
+  padding: 10px 100px;
+  background-color: #ffffff;
   border-radius: 4px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 10px;
-  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: normal;
 }
 
-.get-started-button:hover{
-  background-color: #1c299d;  
-}
-
-.hero{
-  margin-top: 60px;
-}
-
-.hero-img {
-  max-width: 80%;
-}
-
-.hero-text {
-  line-height: 25px;
-  margin-bottom: 30px;
-}
-
-.sign-in-cta {
-  font-size: 12px;
+.c-button:hover{
+  border: solid #1c299d;
 }
